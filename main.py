@@ -20,7 +20,7 @@ import copy
 import time
 
 # Check for updates
-VERSION = "0.9"
+VERSION = "1.0"  # Current version of the application
 
 # Define action types for undo system
 ACTION_CREATE_ORDER = "create_order"
