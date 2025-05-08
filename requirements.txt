@@ -1,0 +1,19 @@
+# Hauptabhängigkeiten
+peewee==3.17.0         # ORM für die Datenbankinteraktion
+fpdf==1.7.2            # PDF-Generierung für Zeitpläne
+requests==2.31.0       # Für Update-Prüfungen
+ttkbootstrap==1.10.1   # Erweiterte Styling-Optionen für tkinter
+
+# Tkinter ist in den meisten Python-Installationen bereits enthalten
+# Für den Fall, dass zusätzliche tkinter-Komponenten benötigt werden:
+# tkcalendar==1.6.1      # Für Datumsauswahl in der Benutzeroberfläche (bei Bedarf)
+
+# Python-Standardbibliotheken (keine Installation erforderlich)
+# datetime - Datums- und Zeitoperationen
+# uuid - Generierung von eindeutigen IDs
+# os - Betriebssysteminteraktion
+# collections - Spezielle Container-Datentypen
+
+# Optionale Abhängigkeiten für Entwicklung
+# pytest==7.4.0        # Für Testen
+# black==23.7.0        # Für Code-Formatierung 
