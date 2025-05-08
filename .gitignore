@@ -195,3 +195,13 @@ logs/
 .env
 .env.local
 .qodo
+
+# temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.txt
+~$*.csv
+~$*.json
+~$*.xml
+~$*.html
