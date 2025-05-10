@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Path to original repository directory
-REPO_DIR="/e/03-INSPIRANTE/00-KUNDEN/20250414-Kleinblatt/Arbeitsordner/Version_alfa"
+REPO_DIR="/Applications/kleinblatt_repo/kleinblatt"
 
 # Run the launch script in Terminal
 osascript -e 'tell application "Terminal"
     activate
-    do script "echo \"Launching Kleinblatt...\"; bash \"'/e/03-INSPIRANTE/00-KUNDEN/20250414-Kleinblatt/Arbeitsordner/Version_alfa/launch_kleinblatt.sh'\""
+    do script "echo \"Launching Kleinblatt...\"; bash \"'/Applications/kleinblatt_repo/kleinblatt/launch_kleinblatt.sh'\""
     set custom title of front window to "Kleinblatt"
 end tell'
