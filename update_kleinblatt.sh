@@ -17,7 +17,7 @@ fi
 # Check if this is a git repository
 if [ ! -d ".git" ]; then
     echo "Error: This doesn't appear to be a git repository."
-    echo "Please clone the repository using: git clone https://github.com/GingerApe/kleinblatt.git"
+    echo "Please clone the repository using: git clone https://git.com/amjadayo/kleinblatt.git"
     exit 1
 fi
 

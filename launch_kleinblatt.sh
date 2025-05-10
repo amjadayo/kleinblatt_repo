@@ -23,11 +23,11 @@ fi
 # Check if a virtual environment exists
 if [ -d "kb" ]; then
     # Activate the virtual environment
-    source /Applications/Logistik_App/kleinblatt/kb/bin/activate
+    source "$SCRIPT_DIR/kb/bin/activate"
     
     # Install requirements
-    python3 -m pip install -r /Applications/Logistik_App/kleinblatt/requirements.txt
+    python3 -m pip install -r "$SCRIPT_DIR/requirements.txt"
 fi
 
 # Launch the application
-python3 /Applications/Logistik_App/kleinblatt/main.py 
+python3 "$SCRIPT_DIR/main.py" 

@@ -66,7 +66,7 @@ Dieses Projekt ist in Python mit tkinter für die GUI entwickelt. Es verwendet p
 - `widgets.py`: Benutzerdefinierte UI-Komponenten
 
 ## Version
-Aktuelle Version: 0.9
+Aktuelle Version: 1.0
 
 ## Support
 Bei Fragen oder Problemen wenden Sie sich bitte an it@kleinblatt.de
